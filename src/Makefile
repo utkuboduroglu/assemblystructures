@@ -1,11 +1,10 @@
 CC=clang
 CFLAGS=-Wall -Wextra -Werror -std=c11 -g
 
-x.%: %.c
+xc.%: %.c
 	$(CC) $(CFLAGS) $< -o $@
 
 clean:
-	rm -f ./x.*
-
-markdown: README.md
-	markdown README.md > README.html
+	rm -f ./xc.*
+	rm -f ./xcpp.*
+	rm -f ./xrs.*
