@@ -1,10 +1,8 @@
 CC=clang
-CFLAGS=-Wall -Wextra -Werror -std=c11 -g
+CFLAGS=-Wall -Wextra -Werror -std=c17 -g
 
 xc.%: %.c
 	$(CC) $(CFLAGS) $< -o $@
 
 clean:
-	rm -f ./xc.*
-	rm -f ./xcpp.*
-	rm -f ./xrs.*
+	rm -vf ./xc.* ./xcpp.* ./xrs.*
