@@ -1,4 +1,14 @@
+# compiled README.md
 README.html
+
+# compiled executables
 src/xc.*
 src/xcpp.*
 src/xrs.*
+
+# valgrind data
+src/vgcore.*
+
+# text structures
+data/*.txt
+data/*.json
