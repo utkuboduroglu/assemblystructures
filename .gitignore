@@ -1,3 +1,6 @@
+# ignore JetBrains configs
+.idea
+
 # compiled README.md
 README.html
 
